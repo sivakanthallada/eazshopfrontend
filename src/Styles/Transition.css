@@ -1,0 +1,18 @@
+/* transition.css */
+.slide-up-enter {
+    transform: translateY(100%);
+}
+
+.slide-up-enter-active {
+    transform: translateY(0);
+    transition: transform 0.5s ease-in;
+}
+
+.slide-up-exit {
+    transform: translateY(0);
+}
+
+.slide-up-exit-active {
+    transform: translateY(100%);
+    transition: transform 0.5s ease-out;
+}

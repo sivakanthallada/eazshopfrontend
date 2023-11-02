@@ -1,0 +1,40 @@
+body{
+    background:#eee;
+}
+
+.cardCoupon {
+    width: 300px;
+    padding:0px;
+    border-radius: 20px;
+    background: orange;
+    border: none;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardCoupon h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.cardCoupon span {
+    font-size: 28px;
+}
+
+.imageCoupon {
+    position: absolute;
+    opacity: .1;
+    left: 0;
+    top: 0;
+}
+
+.imageCoupon2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: .1;
+}
